@@ -1,0 +1,18 @@
+.root {
+  padding-left: 0px;
+  cursor: pointer;
+  height: auto;
+  padding-right: 0px;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  border-radius: 45px;
+  border: 1px solid #ffffff;
+}
+.slotTargetChildren {
+  font-weight: 300;
+  text-align: center;
+  white-space: pre;
+}

@@ -1,0 +1,65 @@
+.root {
+  animation: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 122px;
+  height: auto;
+  max-width: 100%;
+  row-gap: 12px;
+  position: relative;
+  padding: 8px;
+}
+.img {
+  object-fit: cover;
+  max-width: 100%;
+  width: 90px;
+  height: 83px;
+  flex-shrink: 0;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.teamnameBio {
+  animation: none;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.root:hover:not(:active) .teamnameBio {
+  background: none;
+}
+.text___3K9Ac {
+  color: var(--token-B8HT13iLe2bn);
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  line-height: 1.5;
+  letter-spacing: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+.root:hover:not(:active) .text___3K9Ac {
+  color: var(--token-HIt_SMre_dXW);
+}
+.text___7MjF9 {
+  font-size: 12px;
+  padding-bottom: 0px;
+  font-family: "Ruda", sans-serif;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+.root:hover:not(:active) .text___7MjF9 {
+  color: var(--token-HIt_SMre_dXW);
+}
